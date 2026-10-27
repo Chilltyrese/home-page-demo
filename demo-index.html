@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gentle Nutrition | Home</title>
+  <link rel="stylesheet" href="demo-style.css">
+  <script src="demo-script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">🌿 Gentle Nutrition</a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">☰ Menu</button>
+    <nav id="main-nav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#products">Discover Products</a>
+      <a href="#about">About Us</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#help">Help</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <p class="eyebrow">WELCOME TO GENTLE NUTRITION</p>
+        <h1>Simple resources for your nutrition journey</h1>
+        <p>Explore helpful digital resources and find something that works for you.</p>
+        <a class="button" href="#products">Discover Products</a>
+      </div>
+    </section>
+
+    <section class="section container" id="products">
+      <h2>Discover Our Products</h2>
+      <p class="section-intro">Browse our planned digital resources. Product names and descriptions are placeholders until approved.</p>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <span class="card-icon">📖</span>
+          <h3>Paid Product 1</h3>
+          <p>Product details coming soon.</p>
+          <button class="product-button" data-product="Paid Product 1">Find out more</button>
+        </article>
+
+        <article class="product-card">
+          <span class="card-icon">🥗</span>
+          <h3>Paid Product 2</h3>
+          <p>Product details coming soon.</p>
+          <button class="product-button" data-product="Paid Product 2">Find out more</button>
+        </article>
+
+        <article class="product-card">
+          <span class="card-icon">📝</span>
+          <h3>Paid Product 3</h3>
+          <p>Product details coming soon.</p>
+          <button class="product-button" data-product="Paid Product 3">Find out more</button>
+        </article>
+
+        <article class="product-card free">
+          <span class="card-icon">🎁</span>
+          <h3>Constructors — Free Offer</h3>
+          <p>Learn more about our free resource.</p>
+          <button class="product-button" data-product="Constructors — Free Offer">Find out more</button>
+        </article>
+      </div>
+
+      <p id="product-message" class="message" role="status" aria-live="polite"></p>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>Gentle Nutrition is developing digital resources for customers. More information about the business will be added once approved.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="reviews">
+      <h2>Reviews</h2>
+      <p>Customer feedback will be displayed here when genuine reviews are available and approved for publication.</p>
+    </section>
+
+    <section class="section help-section" id="help">
+      <div class="container">
+        <h2>Need Help?</h2>
+        <p>Frequently asked questions and contact information will be added here.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Gentle Nutrition · Prototype only</p>
+  </footer>
+</body>
+</html>
